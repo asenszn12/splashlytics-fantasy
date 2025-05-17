@@ -17,7 +17,7 @@
 
 ## 🚀 Live Demo
 
-[👉 Coming soon or add your link here]
+[👉 Coming soon]
 
 ---
 
