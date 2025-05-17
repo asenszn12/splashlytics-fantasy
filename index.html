@@ -6,6 +6,9 @@
 2. Submit
 3. Display table: name | ppg | cost | value score
 
+<form> - container field to input values
+<label> - gives title for user input
+
 -->
 <!DOCTYPE html>
 <html>
@@ -13,9 +16,15 @@
         <title>Splashlytics</title>
     </head>
     <body>
-        <h1>
-            Love the player, love the game!
-            <p> This is Splashlytics :D</p>
-        </h1>
+        <h1>Love the player, love the game!</h1>
+        <p> This is Splashlytics :D</p>
+        <form>
+            <label for="fname">Player name:</label><br>
+            <!--^^creates text label for player name-->
+            <input type="text" id="fname" name="playerName"><br><br>
+            <!--fname:name of box, playerName:name of player ofc-->
+            <label for="lname">Fantasy Cost:</label><br>
+            <input type="text" id="lname" name='fantasyCost'><br>
+        </form>
     </body>
 </html>
