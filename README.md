@@ -1,6 +1,6 @@
 # 🏀 Splashlytics
 
-**Splashlytics** is a web-based fantasy basketball tool that helps users find **undervalued** and **overperforming** players based on their real-world performance and fantasy cost. Whether you're preparing for your draft or looking for mid-season steals, Swishlytics gives you the data-backed edge you need to dominate your league.
+**Splashlytics** is a web-based fantasy basketball tool that helps users find **undervalued** and **overperforming** players based on their real-world performance and fantasy cost. Whether you're preparing for your draft or looking for mid-season steals, Splashlytics gives you the data-backed edge you need to dominate your league.
 
 ---
 
@@ -25,7 +25,7 @@
 
 1. **Search for a player** by name using the integrated `balldontlie.io` API.
 2. **Enter the player’s fantasy price** (e.g. $20 based on ESPN/Yahoo).
-3. Swishlytics calculates a **Value Score = PPG / Fantasy Cost**.
+3. Splashlytics calculates a **Value Score = PPG / Fantasy Cost**.
 4. Players are sorted and visualised to help you **spot high-efficiency picks**.
 
 ---
