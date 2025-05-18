@@ -1,8 +1,20 @@
 // -------------------------------------------
 // 1. DOM Element References
-// -------------------------------------------
+// ------------------------------------------
 // Get references to input fields (player name, cost)
-// Get reference to the submit button
+window.onload = function () {
+    //ONCE WEB PAGE IS LOADED
+    const submitButton = document.getElementById("submit");
+
+    submitButton.addEventListener("click", function () {
+        const inputPlayer = document.getElementById("fname").value;
+        const inputCost = document.getElementById("lname").value;
+        alert("Player: " + inputPlayer);
+        alert("Cost: $" + inputCost);
+    });
+};
+
+
 // Get reference to the table or list where player info will be displayed
 // Get reference to the chart container if using Chart.js
 
@@ -10,6 +22,9 @@
 // 2. Utility Functions
 // -------------------------------------------
 // Function to calculate value score (PPG / Cost)
+// function fantasyVal(playerPpg, cost) {
+
+// }
 // Function to render a player's row in the UI
 // Function to update or redraw the value chart with new data
 
