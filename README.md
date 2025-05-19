@@ -23,7 +23,7 @@
 
 ## 🧠 How It Works
 
-1. **Search for a player** by name using the integrated `balldontlie.io` API.
+1. **Search for a player** by name using the integrated `basketball(tbc)` API.
 2. **Enter the player’s fantasy price** (e.g. $20 based on ESPN/Yahoo).
 3. Splashlytics calculates a **Value Score = PPG / Fantasy Cost**.
 4. Players are sorted and visualised to help you **spot high-efficiency picks**.
