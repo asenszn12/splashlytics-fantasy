@@ -6,6 +6,7 @@ window.onload = function () {
     //ONCE WEB PAGE IS LOADED
     const submitButton = document.getElementById("submit");
 
+    //addEventListener - calls function when we do action, aka submit
     submitButton.addEventListener("click", function () {
         const inputPlayer = document.getElementById("fname").value;
         const inputCost = document.getElementById("lname").value;

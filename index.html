@@ -8,30 +8,46 @@
 
 <form> - container field to input values
 <label> - gives title for user input
-
+<strong> - bold
+<em> - italicized
+<a href =""> - attribute (with link)
+<ul> - unordered, <ol> - ordered list, <li> - list item
 -->
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Splashlytics</title>
     </head>
     <body>
-
         <h1>Splashlytics</h1>
-        <p> Draft smarter, Win better </p>
+        <p> <em>Draft smarter, Win better </em></p>
+        <img 
+        src="https://thumbs.dreamstime.com/b/dollar-sign-eyes-emoticon-emoji-drooling-character-icon-62593597.jpg"
+        width="200">
+        <!--recommend to css if you wanna resize image-->
+
+        <p>
+            Don't know how fantasy basketball works?
+            <a href="https://www.rotowire.com/basketball/advice/" 
+            target="_blank">Click here!</a>
+        </p>
+
         <form>
+
             <label for="fname">Player name:</label><br>
             <!--^^creates text label for player name-->
-            <input type="text" id="fname" name="playerName"><br><br>
+            <input type="text" id="fname" placeholder="Enter player's full name"><br><br>
             <!--fname:name of box, playerName:name of player ofc-->
             <label for="lname">Fantasy Cost:</label><br>
-            <input type="text" id="lname" name='fantasyCost'><br><br>
+            <input type="text" id="lname" placeholder="Enter player's fantasy cost"><br><br>
             <input type="submit" value = "Calculate Player Value"><br>
         </form>
         <br>
 
         <table border="1">
                 <tr>
+                    
                     <th>Name</th>
                     <th>Points per game</th>
                     <th>Cost ($)</th>
@@ -44,7 +60,15 @@
                     <td>0.48</td>
                     <!--RETRIEVE DATA FOR NAME AND COST FROM PREVIOUS
                     then hardcode ppg and value score for now
-                    
+                    Open this table after submitting player-->
+                </tr>
+                <tr>
+                    <td>Tracy McGradey</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>0.77</td>
+                    <!--RETRIEVE DATA FOR NAME AND COST FROM PREVIOUS
+                    then hardcode ppg and value score for now
                     Open this table after submitting player-->
                 </tr>
             </table>
