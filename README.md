@@ -34,7 +34,7 @@
 
 - **Frontend:** HTML, CSS, JavaScript (or React if you upgrade)
 - **Charts:** [Chart.js](https://www.chartjs.org/)
-- **API:** [balldontlie.io](https://www.balldontlie.io)
+- **API:** TBC
 - **Storage:** LocalStorage (client-side persistence)
 
 ---
