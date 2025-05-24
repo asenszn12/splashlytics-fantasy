@@ -45,3 +45,17 @@ input[type="submit"] {
     padding: 10px;
     border-radius: 10px;
 }
+
+.tagline {
+    text-align: center;
+}
+
+.info-text {
+    text-align: center;
+}
+
+img {
+    margin:auto;
+    display: flex;
+    width:35%;
+}
