@@ -15,6 +15,13 @@ main ways to target html elements
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: lightblue;
+    color:midnightblue;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 table {
     border-collapse: collapse;
