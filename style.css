@@ -17,7 +17,7 @@ main ways to target html elements
 
 body {
     background-color: lightblue;
-    color:midnightblue;
+    color:white;
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -64,5 +64,5 @@ input[type="submit"] {
 img {
     margin:auto;
     display: flex;
-    width:35%;
+    width:40%;
 }
