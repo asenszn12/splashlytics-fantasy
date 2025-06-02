@@ -32,7 +32,7 @@
 
 ## 📦 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript (or React if you upgrade)
+- **Frontend:** HTML, CSS, JavaScript 
 - **Charts:** [Chart.js](https://www.chartjs.org/)
 - **API:** TBC
 - **Storage:** LocalStorage (client-side persistence)
